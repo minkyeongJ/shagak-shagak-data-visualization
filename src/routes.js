@@ -16,6 +16,7 @@ export const routePaths = [
   "/chartjs/MixedChart",
   "/chartjs/Olympic",
   "/chartjs/MBTI",
+  "/chartjs/DashBoard",
   "/d3js",
   "/d3js/01",
   "/d3js/02",
@@ -67,6 +68,7 @@ export const routes = {
       "/chartjs/MixedChart",
       "/chartjs/Olympic",
       "/chartjs/MBTI",
+      "/chartjs/DashBoard",
     ],
   },
 
@@ -140,6 +142,11 @@ export const routes = {
     key: "/chartjs/MBTI",
     link: "/chartjs/MBTI",
     name: "MBTI",
+  },
+  "/chartjs/DashBoard": {
+    key: "/chartjs/DashBoard",
+    link: "/chartjs/DashBoard",
+    name: "DashBoard",
   },
 
   "/d3js": {
